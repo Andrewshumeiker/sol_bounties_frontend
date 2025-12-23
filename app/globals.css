@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #0b0b0f;
+  color: #e5e7eb;
+}
+a {
+  color: inherit;
+}
+
+.sb-gradient {
+  background: radial-gradient(
+      1000px 600px at 50% -10%,
+      rgba(139, 92, 246, 0.25),
+      transparent 60%
+    ),
+    radial-gradient(
+      900px 520px at 90% 20%,
+      rgba(46, 230, 166, 0.12),
+      transparent 55%
+    ),
+    radial-gradient(
+      900px 520px at 10% 40%,
+      rgba(139, 92, 246, 0.1),
+      transparent 55%
+    ),
+    #0b0b0f;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
